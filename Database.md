@@ -28,27 +28,3 @@ En database er kort sagt et sted hvor man kan gemme data. I modsætning til f.ek
 * Databasedesign vha. Objekt Orienteret Analyse og Design (OOAD) og normalisering
 
 * Nodejs og database
-
-
---- 
-### Database lektion 1-4
----
-
-
-DBMS - XAMPP https://www.apachefriends.org/download.html 
-# Formål og mål
-Kan implementere en database i egen webapplikation
-### 
-
-# SQL 
-Hvad er SQL
-
-Begrebet CRUD
-
-SELECT statement
-
-WHERE 
-
-Test I konsollen I phpadmin
-
-Øvelse: Åben phpmyadmin, opret en database med en table kaldet todolist med felterne id, task og state. Senere laves en tabel kaldet states, hvor status på opgaven kan være flere.
