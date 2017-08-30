@@ -67,7 +67,7 @@ module.exports = {
 
 * Øvelser
 1. Omskriv, og anvend, mindst 3 selvvalgte øvelser fra opstartsugerne til modules<br>
-#### Aflevering: 
+#### Aflevering øvelse 1: 
 https://roskildetekniskeskole.sharepoint.com/sites/UMS
 
 2. Analyser et npm module
