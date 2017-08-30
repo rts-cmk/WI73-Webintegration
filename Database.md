@@ -28,3 +28,22 @@ En database er kort sagt et sted hvor man kan gemme data. I modsætning til f.ek
 * Databasedesign vha. Objekt Orienteret Analyse og Design (OOAD) og normalisering
 
 * Nodejs og database
+
+
+--- 
+### Modul 4-5 (Database begreber og i praksis)
+* Hvad er en database og hvad er vores behov for en database
+* Tabeller og andre datasamlinger som arrays i arrays og json
+* Hvad er SQL, herunder CRUD
+* Begreber som felter, rækker, entiteter, meta-data, etc. (listen ovenfor)
+* XAMPP Control Panel, apache og mysql
+* Oprettelse af database med en tabel og data
+* Opbygning af SQL i phpmyadmin
+* Præsentation SQL og ressourcer
+
+### Modul 6 (Databasekonstruktion)
+* Hvordan bygger vi en database op med simple relationer
+
+### Modul 7 (Nodejs og mysql)
+* Forbindelse til en database i nodejs
+* Udtræk fra en database i nodejs
