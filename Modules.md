@@ -66,7 +66,9 @@ module.exports = {
 > tutorialsteacher: http://www.tutorialsteacher.com/nodejs/nodejs-module-exports
 
 * Øvelser
-1. Omskriv, og anvend, mindst 3 selvvalgte øvelser fra opstartsugerne til modules
+1. Omskriv, og anvend, mindst 3 selvvalgte øvelser fra opstartsugerne til modules<br>
+#### Aflevering: 
+https://roskildetekniskeskole.sharepoint.com/sites/UMS
 
 2. Analyser et npm module
     1. Installer NPM modulet fra https://www.npmjs.com/package/date-format så du efterfølgende får en package.json fil og mappen node_modules med date-format modulet.
