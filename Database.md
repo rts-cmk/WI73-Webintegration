@@ -42,8 +42,39 @@ En database er kort sagt et sted hvor man kan gemme data. I modsætning til f.ek
 * Præsentation SQL og ressourcer
 
 ### Modul 6 (Databasekonstruktion)
-* Hvordan bygger vi en database op med simple relationer
+* Hvordan vi bygger en database op med simple relationer
 
 ### Modul 7 (Nodejs og mysql)
-* Forbindelse til en database i nodejs
-* Udtræk fra en database i nodejs
+For at få adgang til mysql-databasen via nodejs har vi brug for et node_module, en forbindelse og et sted vi kan skrive vores SQL-statement.<br>
+1. Installer mysql2 via npm
+2. Impoter mysql2 vha. require
+3. Opret et connection-object - her kaldet db med informationer om host, user, password og database
+
+```javascript
+const mysql = require('mysql2');
+const db = mysql.createConnection({
+    host: 'localhost',
+    user: 'root',
+    password: '',
+    database: 'user'
+})
+```
+
+Når forbindelsen er defineret og tildelt konstanten db, kan den anvendes både til at etablere forbindelse med metoden connect, og eksekvere sql'en med metoden query. Hvis der ikke opstår fejl returneres dataen til result, hvorefter den kan anvendes - her blot med console.log().
+```javascript
+db.connect(function (err) {
+    if (err) throw error;
+    db.query('select * from table', function (err, result) {
+        if (err) throw err;
+        console.log(result);
+    });
+});
+```
+#### Øvelser
+1. Opret et module til forbindelsen
+    1. Opret et mappe kalde config og heri et module kaldet mysql
+    2. Overfør koden med createConnection til modulet
+    3. Anvend modulet vha. require
+
+2. Opret et module med funktioner til forskellige forespørgsler (select-statement)
+
