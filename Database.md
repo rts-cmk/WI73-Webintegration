@@ -71,10 +71,22 @@ db.connect(function (err) {
 });
 ```
 #### Øvelser
-1. Opret et module til forbindelsen
-    1. Opret et mappe kalde config og heri et module kaldet mysql
-    2. Overfør koden med createConnection til modulet
+    1. Opret et mappe kalde config
+    2. Overfør koden med createConnection til et module kaldet mysql
     3. Anvend modulet vha. require
 
-2. Opret et module med funktioner til forskellige forespørgsler (select-statement)
+### Modul 8-9
+Oplæg
+Birgers Bolcher øvelse 1-2
 
+### Modul 10-11
+Relationer
+
+Birgers Bolcher øvelse 3-4
+
+### Modul 12-13
+SQL funktioner
+
+Birgers Bolcher øvelse 5-6
+
+Insert, update og delete
