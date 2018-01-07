@@ -72,8 +72,10 @@ http://javascript.info/dom-navigation
 
 
 ### Øvlese 3: fetch
-Efter introduktion til fetch med eksemplet herunder er din opgave
-1. Hent en række forskellige informationer fra api'en og generer et dynamisk html-dokument 
+
+1. Hent en række forskellige informationer fra api'en og generer en dynamisk udskrift vha. createElement i stedet for innerHTML.
+
+Eksemplet herunder er fra tidligere undervisning.
 
 ```javascript
 document.addEventListener('DOMContentLoaded', function (event) {
