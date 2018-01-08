@@ -7,7 +7,7 @@
 Primær referencer: javascript.info
 
 ### Lektie denne uge
-Læs afsnittet Document http://javascript.info/document Test herefter en række af eksemplerne
+Læs afsnittet `Document` http://javascript.info/document Test herefter en række af eksemplerne
 
 ### Nodes i DOM
 ![DOM](http://javascript.info/article/dom-navigation/dom-links@2x.png)
