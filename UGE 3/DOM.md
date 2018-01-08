@@ -74,8 +74,9 @@ http://javascript.info/dom-navigation
 
 10. Opret et div-element med tekst, lav en klon og tilføj en ny tekst til klonen. Vis begge div-elementer på siden.
 
-11. Opret flg. nav med link hentet fra et array
+11. Opret flg. html hvor teksterne hentes fra et array
 ```html
+    <nav>
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">Our team</a></li>
