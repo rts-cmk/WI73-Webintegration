@@ -30,4 +30,4 @@ Som en del af fagets krav, skal du kunne **sende data til et view** fra en route
 
 Afsnittet **"Passing Data to Views"** i `Scotch.io`'s tutorial indeholder et godt eksempel på, hvordan man opnår dette.
 
-<a href='https://scotch.io/tutorials/use-ejs-to-template-your-node-application#toc-passing-data-to-views'>Gå til afsnittet "Passing Data to Views"</a>
+<a href='https://scotch.io/tutorials/use-ejs-to-template-your-node-application#passing-data-to-views'>Gå til afsnittet "Passing Data to Views"</a>
