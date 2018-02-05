@@ -24,24 +24,24 @@ Varighed: 2 lektioner til hvert emne - herefter fremlæggelse efter aftale.
 
 # Grupper
 
-1: Katarina og Maiken (emne 14)
+1: Katarina, Maiken (14)
 
-2: Malik, Yunus, Oded og Nickolas (emne 1, 2 3)
+2: Malik, Yunus, Oded, Nickolas (1, 2 3)
 
-3: Emil M og David (emne 3)
+3: Emil M og David (3)
 
-4: Randi, Alexander, Jolita og Mantas (Closure)
+4: Randi, Alexander, Jolita, Mantas (1)
 
-5: Jonas og Julie (2) Tue og Rasmus (1)
+5: Jonas og Julie (2) Tue, Rasmus (1)
 
-6: Emil Berg, Joshua og Kasper (3)
+6: Emil Berg, Joshua, Kasper (3)
 
-7: Tenna, Christian og Timm (8)
+7: Tenna, Christian, Timm (8)
 
 8:  Mohammed, Jake, Sebastian (7, 14, 10)
  
 9:  Mikkel, Jonas B, Matt (14)
 
-10: Ronald og Jonas (1)
+10: Ronald, Jonas (1)
 
-11:  Falke, Emil Szymanski (11)
+11: Falke, Emil Szymanski (11)
