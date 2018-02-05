@@ -38,3 +38,6 @@ Varighed: 2 lektioner til hvert emne - herefter fremlæggelse efter aftale.
 
 7: Tenna, Christian og Tim (8)
 
+8:  Mohammed, Jake, Sebastian (7, 14, 10)
+
+9:  Mikkel, Jonas B, Matt, Emil Szymanski (14, 8)
