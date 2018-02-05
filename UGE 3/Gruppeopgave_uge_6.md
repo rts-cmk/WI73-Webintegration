@@ -7,7 +7,7 @@ I grupper af 2-4 personer skal I gøre rede for et eller flere af følgende emne
 5.    Api’er
 6.    Views
 7.    Fetch
-8.    EventListner
+8.    EventListener
 9.    DOM
 10.   Loops
 11.   Arrays
@@ -28,20 +28,20 @@ Varighed: 2 lektioner til hvert emne - herefter fremlæggelse efter aftale.
 
 2: Malik, Yunus, Oded, Nickolas (1, 2 3)
 
-3: Emil M og David (3)
+3: Emil M, David (3)
 
 4: Randi, Alexander, Jolita, Mantas (1)
 
-5: Jonas og Julie (2) Tue, Rasmus (1)
+5: Jonas, Julie (2), Tue, Rasmus (1)
 
 6: Emil Berg, Joshua, Kasper (3)
 
 7: Tenna, Christian, Timm (8)
 
-8:  Mohammed, Jake, Sebastian (7, 14, 10)
+8: Mohammed, Jake, Sebastian (7, 14, 10)
  
-9:  Mikkel, Jonas B, Matt (14)
+9: Mikkel, Jonas B, Matt (14)
 
 10: Ronald, Jonas (1)
 
-11: Falke, Emil Szymanski (11)
+11: Falke, Emil Szymanski, Andreas (11)
