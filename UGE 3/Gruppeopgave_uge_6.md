@@ -15,8 +15,8 @@ I grupper af 2-4 personer skal I gøre rede for et eller flere af følgende emne
 13.   Betingede sætninger
 14.   JSON
 
-Hver gruppe undersøger og fremlægger emnet med referencer til dokumentation og egne eksempler.
+Hver gruppe undersøger og fremlægger emnet med referencer til dokumentation og visning af egne eksempler.
 
-Målet og formål: Eleverne undersøger selv, planlægger og fremlægger et emne – og forhåbentlig får et endnu bedre forståelse for de enkelte emner.
+Målet og formål: Eleverne undersøger selv, planlægger og fremlægger et emne – for derved at får en endnu bedre forståelse for de enkelte emner og begreber.
 
 Varighed: 2 lektioner til hvert emne - herefter fremlæggelse efter aftale.
