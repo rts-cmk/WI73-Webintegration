@@ -1,4 +1,4 @@
-# Gruppeopgave
+# Gruppeopgave uge 6
 I grupper af 2-4 personer skal I gøre rede for et eller flere af følgende emner (Ady og Frank bestemmer hvem som tager hvilke emne)
 1.    Closure
 2.    Callback
