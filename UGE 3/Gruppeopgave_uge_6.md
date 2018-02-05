@@ -28,7 +28,7 @@ Varighed: 2 lektioner til hvert emne - herefter fremlæggelse efter aftale.
 
 2: Malik, Yunus, Oded og Nickolas (emne 1, 2 3)
 
-3: Emil og David (emne 3)
+3: Emil M og David (emne 3)
 
 4: Randi, Alexander, Jolita og Mantas (Closure)
 
@@ -36,8 +36,8 @@ Varighed: 2 lektioner til hvert emne - herefter fremlæggelse efter aftale.
 
 6: Emil Berg, Joshua og Kasper (3)
 
-7: Tenna, Christian og Tim (8)
+7: Tenna, Christian og Timm (8)
 
 8:  Mohammed, Jake, Sebastian (7, 14, 10)
 
-9:  Mikkel, Jonas B, Matt, Emil Szymanski (14, 8)
+9:  Mikkel, Jonas B, Matt, Falke, Emil Szymanski (14, 8)
