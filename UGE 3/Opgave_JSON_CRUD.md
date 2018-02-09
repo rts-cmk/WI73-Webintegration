@@ -3,6 +3,8 @@ Du har til opgave at fremstille dit eget MODULE til at redigere i en JSON-fil.
 
 Til projektet Slipseknuden skal JSON-filen med slips kunne redigeres.
 
+Det er vigtigere at oprette modulet end at implementere det i projektet med formularer.
+
 Modulet skal indeholde funktioner til at 
 - Oprette slips
 - Slette slips
