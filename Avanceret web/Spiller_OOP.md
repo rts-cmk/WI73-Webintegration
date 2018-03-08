@@ -16,20 +16,20 @@ når der skal være flere objekter af samme type.
 Vi har brug for en skabelon (næste eksempel)
 */
 
-let spiller_1 = {
+const spiller_1 = {
     fornavn: 'Jens',
     efternavn: 'Hansen',
     aktiv: false,
     point: 0,
-    skiftAktiv: function () {
+    skiftAktiv() {
         this.aktiv = !this.aktiv;
     },
-    givPoint: function (antal) {
+    givPoint(antal) {
         this.point += antal;
     },
-    profil: function () {
-        return `${this.fornavn} ${this.efternavn} har ${this.point} point ${this.aktiv ? "(aktiv)" : "(ikke aktiv)"}`
-    }
+    profil() {
+        return `${this.fornavn} ${this.efternavn} har ${this.point} point ${this.aktiv ? '(aktiv)' : '(ikke aktiv)'}`;
+    },
 }
 
 spiller_1.skiftAktiv();
@@ -49,20 +49,20 @@ Bemærk at der i dette eksempel anvnedes "komma" som adskiller de enkelte "membe
 - Jeg mener at semicolon er best practies (næste eksempel)
 */
 
-let spiller = function (fornavn, efternavn) {
+const spiller = function (fornavn, efternavn) {
     this.Fornavn = fornavn,
-        this.Efternavn = efternavn,
-        this.Aktiv = false,
-        this.Point = 0,
-        this.SkiftAktiv = function () {
-            this.Aktiv = !this.Aktiv;
-        },
-        this.GivPoint = function (antal) {
-            this.Point += antal;
-        },
-        this.Profil = function () {
-            return `${this.Fornavn} ${this.Efternavn} har ${this.Point} point ${this.Aktiv ? "(aktiv)" : "(ikke aktiv)"}`
-        }
+    this.Efternavn = efternavn,
+    this.Aktiv = false,
+    this.Point = 0,
+    this.SkiftAktiv() {
+        this.Aktiv = !this.Aktiv;
+    },
+    this.GivPoint(antal) {
+        this.Point += antal;
+    },
+    this.Profil() {
+        return `${this.Fornavn} ${this.Efternavn} har ${this.Point} point ${this.Aktiv ? "(aktiv)" : "(ikke aktiv)"}`;
+    }
 }
 
 spiller_1 = new spiller("Palle", "Olsen");
@@ -82,20 +82,20 @@ console.log(spiller_2.Profil());
 Dette eksempel er magen til forrige, dog med semikolon efter hver member
 */
 
-let spiller = function (fornavn, efternavn) {
-    this.Fornavn = fornavn;
-    this.Efternavn = efternavn;
-    this.Aktiv = false;
-    this.Point = 0;
-    this.SkiftAktiv = function () {
+const spiller = function (fornavn, efternavn) {
+  this.Fornavn = fornavn;
+  this.Efternavn = efternavn;
+  this.Aktiv = false;
+  this.Point = 0;
+  this.SkiftAktiv() {
         this.Aktiv = !this.Aktiv;
-    };
-    this.GivPoint = function (antal) {
+  };
+  this.GivPoint(antal) {
         this.Point += antal;
-    };
-    this.Profil = function () {
-        return `${this.Fornavn} ${this.Efternavn} har ${this.Point} point ${this.Aktiv ? "(aktiv)" : "(ikke aktiv)"}`
-    };
+  };
+  this.Profil() {
+        return `${this.Fornavn} ${this.Efternavn} har ${this.Point} point ${this.Aktiv ? "(aktiv)" : "(ikke aktiv)"}`;
+  };
 }
 
 spiller_1 = new spiller("Palle", "Olsen");
@@ -139,7 +139,7 @@ class spiller {
     }
 
     Profil() {
-        return `${this.Fornavn} ${this.Efternavn} har ${this.Point} point ${this.Aktiv ? "(aktiv)" : "(ikke aktiv)"}`
+        return `${this.Fornavn} ${this.Efternavn} har ${this.Point} point ${this.Aktiv ? "(aktiv)" : "(ikke aktiv)"}`;
     };
 }
 
@@ -179,17 +179,17 @@ class spiller {
     }
 
     Profil() {
-        return `${this.Fornavn} ${this.Efternavn} har ${this.Point} point ${this.Aktiv ? "(aktiv)" : "(ikke aktiv)"}`
+        return `${this.Fornavn} ${this.Efternavn} har ${this.Point} point ${this.Aktiv ? "(aktiv)" : "(ikke aktiv)"}`;
     }
 }
 
-let spillerliste = [];
+const spillerliste = [];
 spillerliste.push(new spiller("Pelle", "Olsson"));
 spillerliste.push(new spiller("Tine", "Jonsen"));
 
 spillerliste.forEach(function (spiller) {
     console.log(spiller)
-})
+});
 ```
 ### Eksempel 6
 ```javascript
@@ -219,11 +219,11 @@ class spiller {
     }
 
     Profil() {
-        return `${this.Fornavn} ${this.Efternavn} har ${this.Point} point ${this.Aktiv ? "(aktiv)" : "(ikke aktiv)"}`
+        return `${this.Fornavn} ${this.Efternavn} har ${this.Point} point ${this.Aktiv ? "(aktiv)" : "(ikke aktiv)"}`;
     }
 
     static HentSpillerliste() {
-        let liste = [];
+        const liste = [];
         liste.push(new spiller("James", "Dean"));
         liste.push(new spiller("Sandre", "Dee"));
         liste.push(new spiller("Sam", "Glee"));
@@ -231,7 +231,7 @@ class spiller {
     }
 }
 
-let spillerliste = spiller.HentSpillerliste();
+const spillerliste = spiller.HentSpillerliste();
 
 spillerliste[1].Point = 10;
 spillerliste[1].GivPoint(20);
@@ -264,11 +264,11 @@ class spiller {
     }
 
     Profil() {
-        return `${this.Fornavn} ${this.Efternavn} har ${this.Point} point ${this.Aktiv ? "(aktiv)" : "(ikke aktiv)"}`
+        return `${this.Fornavn} ${this.Efternavn} har ${this.Point} point ${this.Aktiv ? "(aktiv)" : "(ikke aktiv)"}`;
     }
 
     static HentSpillerliste() {
-        let liste = [];
+        const liste = [];
         liste.push(new spiller("James", "Dean"));
         liste.push(new spiller("Sandre", "Dee"));
         liste.push(new spiller("Sam", "Glee"));
@@ -276,7 +276,7 @@ class spiller {
     }
 
     static FindSpiller(liste = [], search = "") {
-        let result = [];
+        const result = [];
         liste.forEach(function (spiller) {
             if (spiller.Fornavn.toLowerCase()
                 .indexOf(search.toLowerCase()) > -1) {
@@ -288,7 +288,54 @@ class spiller {
     }
 }
 
-let spillerliste = spiller.HentSpillerliste();
+const spillerliste = spiller.HentSpillerliste();
 
 console.log(spiller.FindSpiller(spillerliste, "j"));
+```
+### Eksempel 8
+```javascript
+/*
+Functional programming
+*/
+
+/**
+ * Creates a Object with user properties
+ * @param {string} firstname
+ * @param {string} lastname
+ * @returns {Object}
+ */
+const CreatePlayer = (firstname, lastname) => ({
+  firstname,
+  lastname,
+  active: false,
+  point: 0,
+})
+
+/**
+ * Checks if the value is string
+ * @param {string} value
+ * @returns {String}
+ */
+const isString = (value) => {
+  if (typeof value === 'string' || value instanceof String) return value.toLowerCase()
+  return undefined
+}
+
+/**
+ * Check if the value contains
+ * @param {string} value
+ * @param {string} search
+ * @returns {boolean}
+ */
+const FindPlayerByFirstname = (value, search) => isString(value.firstname).indexOf(isString(search)) > -1
+
+
+const players = [
+  CreatePlayer('James', 'Dean'),
+  CreatePlayer('Sandre', 'Dee'),
+  CreatePlayer('Sam', 'Glee'),
+]
+
+console.log('Should return player Sandre Dee', players.filter(value => FindPlayerByFirstname(value, 'an')))
+
 ```
