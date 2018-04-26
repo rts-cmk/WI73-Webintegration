@@ -20,6 +20,8 @@ Start serveren med `npm start`
 
 # async and await
 
+(primær kilde: https://medium.com/@Abazhenov/using-async-await-in-express-with-node-8-b8af872c0016 )
+
 Sørg for at node er opdateret med nyeste version (i skrivende stund 8.11.1 LTS)
 
 https://nodejs.org/en/
