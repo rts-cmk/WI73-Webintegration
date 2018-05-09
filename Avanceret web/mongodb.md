@@ -30,13 +30,11 @@ https://docs.mongodb.com/manual/reference/operator/query/gt/#op._S_gt
 
 ## Øvelse Birgers Bolcher nu med Mongo
 
-https://www.w3resource.com/mongodb/mongodb-conditional-operators.php
-
 Løs opgave 1 og 2 fra Birgers Bolcher https://github.com/rts-cmk/WI73-Webintegration/blob/master/Birgers_Bolcher.md 
 
 
 Du kan indsætte data på flere måder:
-1. Opret et json-dump fra din tidligere opgave og importere dataen via mongo.exe, Compas eller et script i nodejs
+1. Opret et json-dump fra din tidligere opgave og importere dataen via cmd, Compas eller et script i nodejs
 2. Indsæt dataen direkte via Compas
 
 Hvad er Mongoose?
