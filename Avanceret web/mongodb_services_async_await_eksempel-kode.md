@@ -1,4 +1,4 @@
-# Eksemple fra undervisningen
+# Eksempel fra undervisningen
 
 
 ### Routes
