@@ -11,6 +11,7 @@
 - Datakommunikation
 - Validering
 - Dokumentation
+- Udvikling, fejlfinding og test
 ## Javascript - kodeforståelse, anvendelse, udvikling og dokumentation
 - Variable, datatyper
 - Arrays
