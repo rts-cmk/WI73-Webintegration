@@ -16,19 +16,20 @@
 - Variable, datatyper
 - Arrays
 - JSON
-- Operatorer
-- Løkker
-- Betingede sætninger
-- Funktioner
-- Listeners
-- Fetch
-- Callback
-- Promises
-- Async og await
-- DOM manipulation
-- OOP
-- Objektorienteret og procedural kodedesign
-- Local Storrage
+- Operatorer 
+- Løkker *****
+- Betingede sætninger *****
+- Funktioner *****
+- Listeners *****
+- Fetch *****
+- Callback ***
+- Promises ***
+- Async og await *****
+- DOM manipulation *
+- OOP***
+- Objektorienteret og procedural kodedesign ***
+- Sessions *****
+- Local Storrage **
 ## NodeJS
 - NPM
 - API
@@ -38,6 +39,6 @@
 - Express Views 
 - Services (egne modules)
 ## Database
-- MySQL og SQL
-- Mongodb
+- MySQL og SQL *****
+- Mongodb *
 
