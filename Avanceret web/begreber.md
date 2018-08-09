@@ -4,41 +4,41 @@
 <hr>
 
 ## Forståelse for begreber og struktur
-- Client og server struktur
-- Frontend og backend
-- Filstrukturer client og server
-- Datalagring
-- Datakommunikation
-- Validering
-- Dokumentation
-- Udvikling, fejlfinding og test
+- Client og server struktur ***
+- Frontend og backend ***
+- Filstrukturer client og server ***
+- Datalagring **
+- Datakommunikation **
+- Validering ***
+- Dokumentation **
+- Udvikling, fejlfinding og test ***
 ## Javascript - kodeforståelse, anvendelse, udvikling og dokumentation
-- Variable, datatyper
-- Arrays
-- JSON
-- Operatorer 
-- Løkker *****
-- Betingede sætninger *****
-- Funktioner *****
-- Listeners *****
-- Fetch *****
-- Callback ***
-- Promises ***
-- Async og await *****
+- Variable, datatyper ***
+- Arrays ***
+- JSON ***
+- Operatorer *** 
+- Løkker **
+- Betingede sætninger ***
+- Funktioner ***
+- Listeners ***
+- Fetch ***
+- Callback **
+- Promises **
+- Async og await **
 - DOM manipulation *
-- OOP***
-- Objektorienteret og procedural kodedesign ***
-- Sessions *****
-- Local Storrage **
+- OOP *
+- Objektorienteret og procedural kodedesign *
+- Sessions (som kode og begreb) *** 
+- Local Storrage *
 ## NodeJS
-- NPM
-- API
-- Routes
-- REST (GET, POST, PUT, DELETE…)
-- Frameworks: HTTP, Restify og Express
-- Express Views 
-- Services (egne modules)
+- NPM ***
+- API ***
+- Routes ***
+- REST (GET, POST, PUT, DELETE…) **
+- Frameworks: HTTP, Restify og Express **
+- Express Views  ***
+- Services (egne modules) **
 ## Database
-- MySQL og SQL *****
+- MySQL og SQL ***
 - Mongodb *
 
