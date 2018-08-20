@@ -1,4 +1,42 @@
-Opgave 3 
+## Opgave 1
+
+Opret en database. 
+
+Emner: 
+
+* Datatyper 
+
+* Relationer  (Fremmednøgler, constraints) 
+
+Niveauer: 
+
+Kun ét niveau: Vi forventer, at alle kan klare denne opgave. 
+
+Tid:  ca. 2 lektioner til opbygning, relationer, osv (eksklusiv indsætning af data) 
+
+ 
+
+## Opgave 2 
+
+ 
+
+Gør en applikation klar.  Der skal ikke ske noget på siden endnu. Serveren skal blot gøres klar, så I kan begynde at implementere komponenter i efterfølgende opgaver. 
+
+Emner: 
+
+* Repository 
+
+* Genbrug egen boiler template 
+
+* Gør views og routes klar 
+
+Niveauer: 
+
+Kun ét niveau: Vi forventer, at alle kan klare denne opgave. 
+
+Tid:  1 lektion  (helst under) 
+
+## Opgave 3 
 
  
 
