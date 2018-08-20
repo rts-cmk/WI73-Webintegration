@@ -60,6 +60,6 @@ Emner:
 
 * Fejlfinding 
 
-Log SQL 
+* Log SQL 
 
 Tid:  1 - 2 dage. 
