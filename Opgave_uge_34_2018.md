@@ -63,3 +63,38 @@ Emner:
 * Log SQL 
 
 Tid:  1 - 2 dage. 
+
+
+## Opgave 4 
+
+Udtræk af data på siden. 
+
+Emner: 
+
+* Render vs Fetch: Vurder hvornår der skal bruges Render og hvornår der skal bruges Fetch 
+
+* EJS:  Tjek om en variabel er defineret 
+https://stackoverflow.com/questions/5372559/what-is-the-proper-way-to-check-for-existence-of-variable-in-an-ejs-template-us 
+
+EJS:  <% %> kan bruges hvor som helst i HTML'en. 
+
+### Ekstraopgaver: 
+
+Hent data fra databasen, vis dataen tabulært og gør det muligt at sortere listen efter det felt man trykker på (kolonne-overskrifter). 
+
+## Opgave 5 
+
+Indsæt validering på alle formularer og giv brugeren besked når noget er gået godt eller mindre godt (lad applikationen interagere med brugeren)
+
+Tip: Brug evt. NPM Express-validate. Lav gerne dine egne validerings-funktioner (services backend)
+
+### Emner: 
+
+* Send post vha. fetch() 
+
+* Brugervenlighed.  Indtastede oplysninger må ikke forsvinde, når brugeren laver en fejl (validering). 
+
+* Beskeder til brugeren 
+
+* event.preventDefault 
+ 
