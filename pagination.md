@@ -25,6 +25,7 @@ Her er lidt kode til service-function og route
 
 ## Route med angivelse af limit og offset
 `http://localhost:3333/page/limit-4/offset-0`
+
 ```javascript
     app.get('/page/limit-:limit/offset-:offset', async (req, res) => {
         try{
@@ -39,7 +40,8 @@ Her er lidt kode til service-function og route
 ```
 
 ## Andet eksempel med route - 
-`http://localhost:3333/page/1` 
+`http://localhost:3333/page/1`
+
 ```javascript
     app.get('/page/:num', async (req, res) => {
         let page = parseInt(req.params.num);
