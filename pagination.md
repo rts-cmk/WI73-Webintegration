@@ -23,7 +23,8 @@ Her er lidt kode til service-function og route
     },
 ```
 
-## Route
+## Route med angivelse af limit og offset
+`http://localhost:3333/page/limit-4/offset-0`
 ```javascript
     app.get('/page/limit-:limit/offset-:offset', async (req, res) => {
         try{
@@ -36,7 +37,23 @@ Her er lidt kode til service-function og route
         }
     })
 ```
-Siden kaldes med `http://localhost:3333/page/limit-4/offset-0`
+
+## Andet eksempel med route - 
+`http://localhost:3333/page/1` 
+```javascript
+    app.get('/page/:num', async (req, res) => {
+        let page = parseInt(req.params.num);
+        let limit = 4;
+        let offset = (page * limit - limit);
+        try {
+            let produkter = await produkt.getPage(limit, offset);
+            console.log(produkter);
+            res.send(produkter)
+        } catch (err) {
+
+        }
+    })
+    ```
 
 Kig nu på url'en og tilpas den som I mener den skal se ud
 
